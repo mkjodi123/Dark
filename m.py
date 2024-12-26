@@ -19,11 +19,11 @@ def install_requirements():
 install_requirements()
 
 # 🎛️ Telegram API token (replace with your actual token)
-TOKEN = '7637971840:AAHA2N7CvDEWC99UJUynxRCk94oY0Do2I1k'
+TOKEN = '7907155504:AAE_KlRS9FM7jc5eEf0zaquVWQ-vzqTzmcQ'
 bot = telebot.TeleBot(TOKEN, threaded=False)
 
 # 🛡️ List of authorized user IDs (replace with actual IDs)
-AUTHORIZED_USERS = [7353797869]
+AUTHORIZED_USERS = [7353797869, 5047224084]
 
 # 🌐 Global dictionary to keep track of user attacks
 user_attacks = {}
